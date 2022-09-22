@@ -4,11 +4,10 @@ body {
     font-family: "Arial", sans-serif;
     font-size: 14px;
     line-height: 20px;
-    color: #444444;
+    color: #ffffff;
   }
   
   h1 {
-    width: 255px;
     margin: 0 auto 8px;
     font-family: "Arial", sans-serif;
     text-align: center;
@@ -16,89 +15,45 @@ body {
     font-size: 56px;
     line-height: 64px;
   }
-  
-  .container {
-    width: 510px;
-    margin: 0 auto;
-    padding: 0 20px;
+
+  .header-section {
+    background-color: red;
   }
-  
-  .site-header {
-    min-width: 550px;
-    height: 186px;
-    margin-bottom: 150px;
-    padding-top: 30px;
-    background: #847462 no-repeat center url("img/gloevk-bg.jpg");
-    background-size: cover;
-    color: #ffffff;
+
+  .navigation-list {
+    display: flex;
+    justify-content: center;
+    background-color: goldenrod;
   }
-  
-  .site-header p {
-    width: 255px;
-    margin: 0 auto 26px;
-    text-align: center;
-    font-size: 16px;
-    line-height: 24px; 
+
+  .navigation-list p {
+    text-decoration: underline;
   }
-  
-  .site-header img {
-    display: block;
-    margin: 0 auto;
+
+  .navigation-list p {
+    margin: 25px;
   }
-  
-  .features {
-    width: 510px;
-    margin: 0 auto 30px;
-    padding: 0 20px;
+
+  .main-section {
+    padding: 10px;
+    background-color: green;
   }
-  
-  .features p {
-    display: inline-block;
-    vertical-align: top;
-    width: 30%;
-    margin: 0 5px;
-    background-repeat: no-repeat;
-    background-position: center top;
-    text-transform: uppercase;
+
+  .article-section {
+    margin: 10px;
+    padding: 10px;
+    background-color: blue;
   }
-  
-  .feature-furniture {
-    padding-top: 65px;
-    background-image: url("img/furniture.svg");
+
+  .footer-section {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: purple;
   }
-  
-  .feature-lighting {
-    padding-top: 65px;
-    background-image: url("img/lighting.svg");
-  }
-  
-  .feature-accessories {
-    padding-top: 65px;
-    background-image: url("img/accessories.svg");
-  }
-  
-  .advantages {
-    width: 510px;
-    margin: 0 auto 40px;
-    padding: 0 20px;
-  }
-  
-  .advantages-list {
-    padding: 0;
-  }
-  
-  .site-footer {
-    min-width: 550px;
-    background-color: #847462;
-    color: #ffffff;
-  }
-  
-  .site-footer .container {
-    text-align: center;
-  }
-  
-  .site-footer p {
-    display: inline-block;
-    vertical-align: middle;
-    padding: 0 20px;
+
+  .footer-section p {
+    font-size: 35px;
+    line-height: 24px;
   }
