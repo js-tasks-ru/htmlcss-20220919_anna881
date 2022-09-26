@@ -1,16 +1,6 @@
 /* Стилизация аккордеона */
-
-/* Использование данного стиля не помогло избавиться от маркера
-details summary::-webkit-details-marker {
-    display: none
-  } */
-
-details summary {
-    list-style: none;
-  }
   
 .accordion-section {
-    display: block;
     width: 730px;
     margin-bottom: 8px;
     padding: 32px;
@@ -31,9 +21,14 @@ details summary {
 }
 
 .accordion-section__title {
+    display: inline;
     color: var(--black);
     cursor: pointer;
 }
+
+.accordion-section__title::-webkit-details-marker {
+    display: none;
+  }
 
 .accordion-section__text {
     color: var(--grey-4);
