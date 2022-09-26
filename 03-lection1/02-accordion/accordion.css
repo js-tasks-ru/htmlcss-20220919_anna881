@@ -3,7 +3,7 @@
 .accordion-section {
     width: 730px;
     margin-bottom: 8px;
-    padding: 32px;
+    padding: 24px 32px 24px 32px;
     
     font-family: 'Inter', serif;;
     font-style: normal;
