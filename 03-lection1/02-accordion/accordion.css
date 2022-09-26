@@ -1,1 +1,40 @@
 /* Стилизация аккордеона */
+
+/* Использование данного стиля не помогло избавиться от маркера
+details summary::-webkit-details-marker {
+    display: none
+  } */
+
+details summary {
+    list-style: none;
+  }
+  
+.accordion-section {
+    display: block;
+    width: 730px;
+    margin-bottom: 8px;
+    padding: 32px;
+    
+    font-family: 'Inter', serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    background: var(--white);
+}
+
+.accordion-section:last-child {
+    margin-bottom: 0;
+}
+
+.accordion-section__title {
+    color: var(--black);
+    cursor: pointer;
+}
+
+.accordion-section__text {
+    color: var(--grey-4);
+}
