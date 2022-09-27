@@ -1,0 +1,7 @@
+.preview {
+    height: 400px;
+    background: #F9FAFC;
+
+    border-top: 1px solid var(--grey-2);;
+    border-bottom: 1px solid var(--grey-2);
+}
