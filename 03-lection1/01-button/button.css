@@ -1,8 +1,9 @@
 .button {
-    width: 189px;
     height: 48px;
+    padding: 0 50px 0 50px;
     border: none;
     border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -11,29 +12,29 @@
     transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out, border 200ms ease-in-out;
 }
 
-.button__primary {
+.button_primary {
     background: var(--blue);
 }
 
-.button__primary:hover:enabled {
+.button_primary:hover:enabled {
     background: var(--blue-hover);
 }
 
-.button__secondary {
+.button_secondary {
     background: var(--purple);
 }
 
-.button__secondary:hover:enabled {
+.button_secondary:hover:enabled {
     background: var(--purple-hover);
 }
 
-.button__alternate {
+.button_alternate {
     border: 1px solid var(--grey-3);
     background: var(--grey-1);
     color: var(--grey-4);
 }
 
-.button__alternate:hover:enabled {
+.button_alternate:hover:enabled {
     border: 1px solid var(--black);
 }
 
