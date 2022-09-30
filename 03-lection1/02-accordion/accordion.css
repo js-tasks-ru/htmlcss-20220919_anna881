@@ -1,15 +1,9 @@
 /* Стилизация аккордеона */
+
 .accordion {
+    padding: 24px 32px 24px 32px;
     margin-bottom: 8px;
-}
 
-.accordion:last-child {
-    margin-bottom: 0;
-}
-
-.accordion__section {
-    padding: 24px 0px 24px 32px;
-    
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
@@ -21,19 +15,35 @@
     background: var(--white);
 }
 
-.accordion__section[open] {
+.accordion:last-child {
+    margin-bottom: 0;
+}
+
+.accordion[open] {
     padding-bottom: 32px;
 }
 
 .accordion__title {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
     color: var(--black);
     cursor: pointer;
 }
 
 .accordion__title::-webkit-details-marker {
     display: none;
-  }
+}
+
+.accordion__title:before {
+    content: url("../../assets/images/accordion_button.svg");
+    transition: transform .5s;
+}
+
+.accordion[open]>.accordion__title:before {
+    transform: rotateZ(180deg);
+}
 
 .accordion__text {
     margin-top: 16px;
