@@ -5,11 +5,15 @@
     border-bottom: 1px solid var(--grey-2);
 }
 
-.preview-cards {
+.preview__cards {
     padding-top: 68px;
     padding-bottom: 204px;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.preview__cards > * {
+    margin-bottom: 30px;
 }
