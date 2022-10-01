@@ -1,6 +1,6 @@
 /* Стилизация аккордеона */
 
-.accordion {
+.accordion__item {
     padding: 24px 32px 24px 32px;
     margin-bottom: 8px;
 
@@ -15,11 +15,11 @@
     background: var(--white);
 }
 
-.accordion:last-child {
+.accordion__item:last-child {
     margin-bottom: 0;
 }
 
-.accordion[open] {
+.accordion__item[open] {
     padding-bottom: 32px;
 }
 
@@ -41,7 +41,7 @@
     transition: transform .5s;
 }
 
-.accordion[open]>.accordion__title:before {
+.accordion__item[open]>.accordion__title:before {
     transform: rotateZ(180deg);
 }
 
