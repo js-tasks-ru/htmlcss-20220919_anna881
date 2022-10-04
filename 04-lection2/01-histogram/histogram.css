@@ -62,7 +62,7 @@
 }
 
 .diagramm__item {
-    width: 9px;
+    flex-basis: 9px;
     background: var(--blue-1);
 
 }
