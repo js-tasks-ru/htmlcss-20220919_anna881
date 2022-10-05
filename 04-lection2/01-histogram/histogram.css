@@ -11,13 +11,13 @@
     justify-content: space-between;
 }
 
-.orders {
+.histogram__orders {
     display: flex;
     flex-direction: column;
     gap: 6px;
 }
 
-.orders__title {
+.histogram__title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -28,7 +28,7 @@
     opacity: 0.8;
 }
 
-.orders__number {
+.histogram__number {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -38,7 +38,7 @@
     color: var(--black);
 }
 
-.orders__view {
+.histogram__view {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
