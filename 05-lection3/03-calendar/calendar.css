@@ -73,9 +73,7 @@
 }
 
 .calendar__day_middle {
-    color: white;
-    background: #A0B1F5;
-    opacity: 0.2;
+    background: rgba(160, 177, 245, 0.2);
 }
 
 
