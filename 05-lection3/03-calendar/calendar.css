@@ -26,12 +26,13 @@
     color: #334D6E;
 }
 
-.week__days {
+.calendar__week {
     margin-top: 24px;
     margin-bottom: 24px;
 
-    display: flex;
-    gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(7, 36px);
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -40,9 +41,15 @@
     color: #90A0B7;
 }
 
+.week-item{
+    display: flex;
+    justify-content: center;
+}
+
 .calendar__days {
     display: grid;
-    grid-template-columns: repeat(7, 30px);
+    grid-template-columns: repeat(7, 36px);
+    grid-template-rows: repeat(5, 36px);
 
     font-family: 'Source Sans Pro';
     font-style: normal;
@@ -55,6 +62,21 @@
 }
 
 .calendar__day {
-    width: 36px;
-    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.calendar__day_start-end {
+    color: white;
+    background: #4263EB;
+}
+
+.calendar__day_middle {
+    color: white;
+    background: #A0B1F5;
+    opacity: 0.2;
+}
+
+
+
