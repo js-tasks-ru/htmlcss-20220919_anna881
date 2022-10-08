@@ -15,6 +15,7 @@
 }
 
 .calendar__month {
+    margin-bottom: 24px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -26,12 +27,9 @@
     color: #334D6E;
 }
 
-.calendar__week {
-    margin-top: 24px;
-    margin-bottom: 24px;
-
-    display: grid;
-    grid-template-columns: repeat(7, 36px);
+.calendar__week-item{
+    display: flex;
+    justify-content: center;
 
     font-family: 'Inter';
     font-style: normal;
@@ -39,11 +37,6 @@
     font-size: 14px;
     line-height: 20px;
     color: #90A0B7;
-}
-
-.week-item{
-    display: flex;
-    justify-content: center;
 }
 
 .calendar__days {
@@ -61,7 +54,7 @@
 
 }
 
-.calendar__day {
+.calendar__days-item {
     display: flex;
     align-items: center;
     justify-content: center;
