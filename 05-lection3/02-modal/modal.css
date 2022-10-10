@@ -53,20 +53,3 @@
     color: var(--grey-4);
 
 }
-
-.open-modal {
-    position: relative;
-
-    height: 48px;
-    padding: 0 50px 0 50px;
-    border: none;
-    border-radius: 8px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    cursor: pointer;
-
-    color: var(--white);
-    background: #4263EB;
-}
