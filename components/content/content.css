@@ -25,3 +25,21 @@
 
     color: var(--grey-4);
 }
+
+@media screen and (max-device-width: 375px) {
+    .content {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .content__title {
+        font-size: 20px;
+        line-height: 26px;
+
+    }
+
+    .content__histogram {
+        width: 343px;
+    }
+}

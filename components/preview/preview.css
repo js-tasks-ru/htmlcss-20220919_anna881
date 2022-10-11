@@ -23,3 +23,10 @@
 .preview__cards > * {
     margin-bottom: 30px;
 }
+
+@media screen and (max-device-width: 375px) {
+    .preview {
+        padding: 0px;
+        
+    }
+}

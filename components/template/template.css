@@ -31,3 +31,11 @@ body {
     color: var(--grey-3);
     background: #F9FAFC;
 }
+
+@media screen and (max-device-width: 375px) {
+    .template__main {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
