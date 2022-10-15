@@ -1,7 +1,4 @@
 .content {
-    width: 825px;
-    height: 746px;
-
     padding-top: 32px;
     padding-left: 48px;
     padding-bottom: 32px;
@@ -28,7 +25,6 @@
 
 @media screen and (max-device-width: 375px) {
     .content {
-        width: 100%;
         padding-left: 16px;
         padding-right: 16px;
     }

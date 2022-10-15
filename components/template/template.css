@@ -1,35 +1,12 @@
-body {
-    height: 100%;
-}
-
 .template {
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
 
 .template__main {
+    min-height: 70vh;
     display: grid;
     grid-template-columns: auto 1fr;
-}
-
-.template__footer {
-    height: 130px;
-    padding: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-   
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-
-    color: var(--grey-3);
-    background: #F9FAFC;
 }
 
 @media screen and (max-device-width: 375px) {
