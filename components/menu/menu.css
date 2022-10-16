@@ -1,0 +1,40 @@
+.menu {
+    width: 229px;
+
+}
+
+.menu__title {
+    padding-bottom: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #000000;
+
+}
+
+.menu__item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #212429;
+}
+
+.menu__item:hover {
+    color: #D84910;
+}
+
+.menu__item_current {
+    margin-top: 30px;
+}
+
+@media screen and (max-device-width: 375px) {
+    .menu {
+        display: none;
+    }
+}

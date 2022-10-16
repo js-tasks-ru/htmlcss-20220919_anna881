@@ -1,6 +1,12 @@
 .header {
-    padding: 96px 0 77px 0;
+    height: 82px;
 }
+
+.header__logo {
+    display: none;
+    content: url("../../assets/images/logo.svg");
+}
+
 
 .header__title {
     margin: 0px;
@@ -11,4 +17,21 @@
     line-height: 64px;
 
     color: var(--black);
+}
+
+@media screen and (max-device-width: 375px) {
+    .header {
+        background: #F9FAFC;
+    }
+    
+    .header__logo {
+        display: block;
+        margin: 16px auto 16px auto;
+    }
+
+    .header__title {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+    }
 }
