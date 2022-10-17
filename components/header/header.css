@@ -4,7 +4,6 @@
 
 .header__logo {
     content: url("../../assets/images/logo.svg");
-
 }
 
 .header__title {
@@ -29,7 +28,7 @@
         margin-left: auto;
         margin-right: auto
     }
-
+    
     .header__title {
         font-weight: 400;
         font-size: 28px;

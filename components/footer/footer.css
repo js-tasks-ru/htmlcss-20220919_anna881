@@ -27,4 +27,20 @@
         display: none;
     }
 
+.footer_template {
+    height: 130px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+   
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: var(--grey-3);
+    background: #F9FAFC;
 }
