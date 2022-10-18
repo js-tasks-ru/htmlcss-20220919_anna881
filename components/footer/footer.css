@@ -22,6 +22,11 @@
     line-height: 24px;
 }
 
+@media screen and (max-device-width: 375px) {
+    .footer{
+        display: none;
+    }
+
 .footer_template {
     height: 130px;
     padding: 0px;

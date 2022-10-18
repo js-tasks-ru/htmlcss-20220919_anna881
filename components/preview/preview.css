@@ -25,8 +25,7 @@
 }
 
 @media screen and (max-device-width: 375px) {
-    .preview {
-        padding: 0px;
-        
+    .preview__cards {
+        padding: 22px 16px 22px 16px;
     }
 }
