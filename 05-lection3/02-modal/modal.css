@@ -39,7 +39,11 @@
     right: 0px;
 
     padding: 12px 12px;
-    content: url("../../assets/images/close_button.svg");
+}
+
+.modal__btn-close {
+    width: 20px;
+	height: 20px;
     cursor: pointer;
 }
 

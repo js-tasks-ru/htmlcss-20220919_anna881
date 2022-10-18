@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../../assets/css/main.css">
     <link rel="stylesheet" href="./modal.css">
     <link rel="stylesheet" href="../../03-lection1/01-button/button.css">
+    <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css">
     <title>Modal</title>
 </head>
 
@@ -15,7 +16,11 @@
         <div class="modal" id="modal">
             <div class="modal__wrap">
                 <div class="modal__title">Modal title</div>
-                <div class="modal__close" id="modal-close"></div>
+                <div class="modal__close" id="modal-close">
+                    <svg id="modal-close" class="modal__btn-close">
+                        <use href="../../assets/images/sprite.svg#close"></use>
+                    </svg>
+                </div>
                 <div class="modal__text" disable>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
                     officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat

@@ -26,7 +26,6 @@
 .accordion__title {
     display: flex;
     justify-content: space-between;
-    flex-direction: row-reverse;
 
     color: var(--black);
     cursor: pointer;
@@ -36,13 +35,15 @@
     display: none;
 }
 
-.accordion__title:before {
-    content: url("../../assets/images/accordion_button.svg");
-    transition: transform .5s;
+.accordion__icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
 }
 
-.accordion__item[open]>.accordion__title:before {
+.accordion__item[open] .accordion__icon {
     transform: rotateZ(180deg);
+    transition: transform .5s;
 }
 
 .accordion__text {
